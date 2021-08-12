@@ -54,7 +54,7 @@ namespace Le_nombre_magique
             while (nbVie>0)
             {
                 Console.WriteLine();
-                Console.WriteLine("Il vous reste: " + nbVie);
+                Console.WriteLine("Il vous reste: " + nbVie + " vies");
                 nombre = DemanderNombre(NOMBREMIN, NOMBREMAX);
 
 
